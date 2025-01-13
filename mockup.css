@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Lexend+Tera:wght@100..900&family=Pacifico&family=Permanent+Marker&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Vinyl&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    color: rgb(154, 196, 52);
+    display: inline-block;
+    margin-top: 22px;
+    margin-left: 33px;
+}
+
+.logo span {
+    color:  rgb(190, 52, 44);
+}
+
+.header-bar {
+display: flex;
+}
+
+.header-links {
+    display: inline-block;
+    margin-left: 60%;
+    margin-top: 15px;
+}
+
+.toplink {
+    display: inline-block;
+    margin-top: 22px;
+    margin-inline: 20px;
+}
+.header-bar a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+
+.be-healthy {
+    background-color: rgb(224, 224, 224);
+    margin-top: 20px;
+    display: inline-block;
+    padding-left: 60px;
+    padding-block: 40px;
+    width: 100%;
+}
+
+.lorem {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.bh {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+}
+.b-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+/* .img1 {
+    margin-left: 50px;
+} */
+ .img-container {
+    background-image: url('images/mockUpImg3.jpg');
+    height: 250px;
+    width: 160px;
+    background-size: cover;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+ }
+.L1 {
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    padding: 10px;
+    display: inline-block;
+}
+.L1-2 {
+    background-color: rgb(154, 196, 52);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    text-align: end;
+    padding-right: 10px;
+    padding-block: 10px;
+    width: 100px;
+    display: inline-block;
+}
+
+.img-container2 {
+    background-image: url('images/mockUpImg1.jpg');
+    height: 250px;
+    width: 160px;
+    background-size: cover;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+ }
+
+.img-container3 {
+    background-image: url('images/mockUpImg2.jpg');
+    height: 250px;
+    width: 160px;
+    background-size: cover;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+ }
