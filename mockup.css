@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url(images/moroccan-flower-dark.jpg);
+}
+
 .logo {
     font-family: "Roboto", sans-serif;
     font-weight: 900;
@@ -35,9 +39,10 @@ display: flex;
     margin-top: 22px;
     margin-inline: 20px;
 }
+
 .header-bar a {
     text-decoration: none;
-    color: black;
+    color: coral;
     font-family: sans-serif;
 }
 
@@ -46,8 +51,6 @@ display: flex;
     margin-top: 20px;
     width: 100%
     display: inline-block;
-    /* display: flex;
-    flex-flow: row nowrap; */
     padding-left: 60px;
     padding-block: 40px;
 }
@@ -65,6 +68,7 @@ display: flex;
     font-weight: 900;
     font-size: 3rem;
 }
+
 .b-container {
     display: flex;
     flex-flow: row nowrap;
@@ -74,9 +78,7 @@ display: flex;
     width: 350px;
     height: 150px;
 }
-/* .img1 {
-    margin-left: 50px;
-} */
+
  .img-container {
     background-image: url('images/mockUpImg3.jpg');
     height: 390px;
